@@ -1,0 +1,380 @@
+body  {
+    background-image: linear-gradient(to right bottom, #c8cdd3, #d4d9dd, #e1e4e8, #eef0f2, #fbfcfd);
+}
+
+hr {
+background-color:black;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+	.navbar-inverse .navbar-nav > li > a {
+	color:white;
+	}
+	
+	
+	.navbar-nav > li:hover {
+		background-color:green;
+		text-decoration:underline;
+		color:white;
+	}
+
+	
+	.navbar-brand {
+		
+	}
+	.navbar-brand img {
+	float:left;
+	margin-top:-13px;
+	margin-right:10px;
+	}
+	
+	.header-block {
+	background-image:url("../img/Website-Design-Background.png");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	}
+	
+	.ab-me {
+	margin-top:30px;
+	
+	}
+	
+	.header-photo-info img {
+	width:300px;
+	padding-top:30px;
+	height:350px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+	
+	.bg-3 {
+	background-image: url("~/img/header-bg.jpg");
+	margin-top:30px;
+	}
+	
+	.header-text-block {
+	margin-top:10px;
+	margin-bottom:150px;
+	color:white;
+	top:100px;
+	}
+    
+	
+	.caroucell-block {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	}
+	
+	.carousel-control {
+		margin-top:120px;
+	}
+	.carousel-control.right {
+	background-image:none;
+	}
+	
+	.carousel-control.left {
+	background-image:none;
+	}
+	
+	.work-block {
+		background-image: url("../img/work-exp-bg.jpg");
+	}
+	
+	
+	
+	
+	.exp_block {
+	padding:5px;
+	border-radius:5px;
+	margin-top:30px;
+	}
+	
+	
+	.resume-block {
+	margin-bottom:30px;
+	}
+	
+	.btn-dwd {
+		padding:10px 15px;
+		background-color:green;
+		color:white;
+		border-radius:5px;
+		margin-top;10px;
+	
+	}
+	
+	.btn-dwd:hover { 
+	color:white;
+	}
+		
+	.wrk_exp ul {
+	text-align:left;
+	}
+	
+	.wrk_exp ul li{
+	list-style:square outside;
+	margin-left:20px;
+	}
+	
+	.skills-section {
+	padding-left:0;
+	padding-right:30px;
+	}
+	
+
+	
+	
+	.skills-title {
+	font-size:24px;
+	text-decoration:underline;
+	margin-bottom:20px;
+	
+	}
+	
+	.dwn-cv-btn {
+	width:50%;
+	margin-top:10px;
+	}
+	
+    /* Add a gray background color and some padding to the footer */
+    footer {
+	  background-image:url("../img/foter-bg.jpg");
+	  background-repeat:no-repeat;
+	  padding-bottom:10px;
+	  margin-top:30px;
+    }
+	
+	.somebody-say {
+
+	padding:5px;
+	border-radius:5px;
+	margin-top:30px;
+	margin-bottom:10px;
+	}
+	
+	.somebody-say div > p {
+		padding-bottom;20px;
+	}
+	
+	
+	.footer-left {
+		border-radius:5px;
+		}
+	
+	.footer-right {
+	border-radius:5px;
+	}
+	
+	
+	 /* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+	border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+	margin-bottom:10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+	width: 30px;
+	background-color:green;
+	color:white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+
+.fa-instagram {
+    background: #55ACEE;
+    color: white;
+} 
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+} 
+
+.fa-github {
+    background: #55ACEE;
+    color: white;
+} 
+
+
+.footer-copyright {
+	padding: 15px;
+	margin-top:0;
+	color:black;
+	background-image: url("../img/foter-bg.jpg");
+}
+
+address {
+font-style:Italic;
+
+}
+
+
+.img-portfolio-item {
+margin-bottom:20px;
+}
+
+.img-portfolio-item a {
+text-decoration:underline;
+font-size:14px;
+color: green;
+
+}
+	@media (max-width:768px) and (orientation:portrait) {
+	
+	
+	.navbar-inverse .navbar-nav > li {
+		text-align:center;	
+	}
+	
+	.ab-me {
+	margin-top:10px;
+	}
+	
+	.bg-3 {
+		
+	}
+	
+	.skills-title {
+		margin: 0 auto;
+	}
+	
+	.caroucell-block {
+	margin-bottom:30px;
+	width:100%;
+	}
+	
+	
+	.exp_block {
+		width:95%;
+	}
+	
+	
+	.skills-section {
+	width:95%;
+	margin: 0 auto;
+
+	}
+	
+	.somebody-say {
+	width:95%;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+	
+	.carousel-control {
+		display:none;
+	}
+	
+	.wrk_exp {
+	margin-left:0;
+	margin-top:10px;
+	}
+	
+	
+	.wrk_exp ul h2, h3, h4 {
+		text-align:center;
+		margin-left:-25px;
+	}
+	
+	.wrk_exp ul > li  {
+	margin-left:0;
+	text-align:left;
+	}
+	
+	.skills-section {
+	padding-left:5px;
+	padding-right:5px;
+	}
+	
+	.dwn-cv-btn {
+	width:90%;
+	}
+	
+	 footer {
+	  padding-bottom:10px;
+	  background-color:  #C3C3C3;
+	  background-image:none;
+    }
+	
+	.footer-right {
+	margin-top:10px;
+	margin-bottom:0;
+	width:95%;
+	}
+	
+	.footer-left {
+	margin-top:10px;
+	width:95%;
+	}
+	
+	.footer-copyright {
+	 background-color:#C3C3C3;
+	 background-image:none;
+	}
+
+
+	@media (max-width:667px) and (orientation:landscape) {
+	
+	.caroucell-block {
+	margin-bottom:30px;
+	width:100%;
+	}
+	
+	.exp_block {
+		width:95%;
+	}
+	
+	.skills-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+	
+	.carousel-control {
+	margin-top:150px;
+	}
+	
+	.wrk_exp {
+	margin-left:30px;
+	margin-top:30px;
+	padding-bottom:0;
+	padding-left:30px;
+	
+	}
+	
+	.skills-section {
+	width:95%;
+	margin: 0 auto;
+	}
+	
+	.somebody-say {
+	width:95%;
+	margin-top:20px;
+	}
+	
+	.dwn-cv-btn {
+	width:90%;
+	}
+	
+	}
+	
