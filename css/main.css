@@ -46,6 +46,7 @@ background-color:black;
 width: 20%;
     height: auto;
     margin-bottom:20px;
+    border-radius: 50%;
 }
 
 p, h2, h3, h4, h5 {
@@ -343,7 +344,7 @@ color: green;
 	}
 
         .smb-img {
-width: 40%;
+    width: 40%;
     height: auto;
     margin-bottom:20px;
 }
