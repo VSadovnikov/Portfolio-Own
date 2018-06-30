@@ -271,7 +271,16 @@ font-size:14px;
 color: green;
 
 }
-	@media (max-width:768px) and (orientation:portrait) {
+
+.captcha {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+@media (max-width:768px) and (orientation:portrait) {
 	
 	
 	.navbar-inverse .navbar-nav > li {
@@ -349,6 +358,13 @@ color: green;
     margin-bottom:20px;
 }
 
+
+        .captcha {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 	
 	 footer {
 	  padding-bottom:10px;
@@ -414,5 +430,12 @@ color: green;
 	.dwn-cv-btn {
 	width:90%;
 	}
+
+
+        .captcha {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
 	
 	}
