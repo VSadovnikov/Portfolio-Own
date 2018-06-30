@@ -1,7 +1,6 @@
 body  {
-    background-image: linear-gradient(to right bottom, #c8cdd3, #d4d9dd, #e1e4e8, #eef0f2, #fbfcfd);
+    background-image: linear-gradient(to top left, #fff1eb 0%, #ace0f9 100%);
 }
-
 hr {
 background-color:black;
 }
@@ -91,7 +90,7 @@ p, h2, h3, h4, h5 {
 	}
 	
 	.work-block {
-		background-image: url("../img/work-exp-bg.jpg");
+
 	}
 	
 
@@ -172,8 +171,7 @@ text-decoration: underline;
 	
     /* Add a gray background color and some padding to the footer */
     footer {
-	  background-image:url("../img/foter-bg.jpg");
-	  background-repeat:no-repeat;
+
 	  padding-bottom:10px;
 	  margin-top:30px;
     }
@@ -252,7 +250,7 @@ text-decoration: underline;
 	padding: 15px;
 	margin-top:0;
 	color:black;
-	background-image: url("../img/foter-bg.jpg");
+
 }
 
 address {
