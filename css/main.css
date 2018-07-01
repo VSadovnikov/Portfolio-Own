@@ -137,6 +137,16 @@ p, h2, h3, h4, h5 {
 .btn-success:hover {
 text-decoration: underline;
 }
+
+.go-back {
+    color: white;
+    text-decoration: underline;
+}
+
+.go-back:hover {
+    color: white;
+    text-decoration: underline;
+}
 	
 	
 	
